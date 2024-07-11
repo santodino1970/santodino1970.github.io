@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curriculum Vitae</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="encabezado">
+    <img src="/fotos/portada.png" alt="Logo" class="logo" />
+    <div>
+      <h1>Sant García García</h1>
+      <h2>Estudiante DAM</h2>
+    </div>
+  </header>
+
+  <section class="barra_informacion">
+
+    <div>
+      <nav class="barra_de_navegacion">
+        <a href="index.html">Inicio</a>
+        <a href="info_personal.html">Inforción Personal</a>
+        <a href="info_academica.html">Información Académica</a>
+        <a href="experiencia.html">Experiencia</a>
+        <a href="otros.html">Otros</a>
+        <a href="contacto.html">Contactos</a>
+
+
+
+        <div class="redes_sociales">
+          <div class="rs01">
+            <a href="https://www.whatsapp.com" target="_blank">
+              <img src="fotos/whatsapp.png" alt="WhatsApp" class="icono_red_social" />
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+              <img src="fotos/facebook.png" alt="Facebook" class="icono_red_social" />
+            </a>
+          </div>
+          <div class="rs02">
+            <a href="https://www.linkedin.com" target="_blank">
+              <img src="fotos/linkedin.png" alt="LinkedIn" class="icono_red_social" />
+            </a>
+
+            <a href="https://www.instagram.com" target="_blank">
+              <img src="fotos/instagram.png" alt="Instagram" class="icono_red_social" />
+            </a>
+          </div>
+        </div>
+
+      </nav>
+
+
+    </div>
+    <div class="informacion">
+      <h2>Contactos</h2>
+      <section>
+        <form action="#" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required /><br /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="mensaje">Mensaje:</label><br />
+          <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br /><br />
+
+          <input type="checkbox" id="suscripcion" name="suscripcion" value="suscripcion" />
+          <label for="suscripcion">Suscribirme al boletín</label><br /><br />
+
+          <input type="radio" id="telefono" name="contacto" value="telefono" />
+          <label for="telefono">Prefiero ser contactado por teléfono</label><br />
+          <input type="radio" id="email_contacto" name="contacto" value="email" />
+          <label for="email_contacto">Prefiero ser contactado por email</label><br /><br />
+
+          <label for="motivo_contacto">Motivo de contacto:</label>
+          <select id="motivo_contacto" name="motivo_contacto">
+            <option value="consulta">Consulta</option>
+            <option value="solicitud">Solicitud de empleo</option>
+            <option value="queja">Queja</option>
+            <option value="otros">Otros</option>
+          </select>
+          <br />
+          <br />
+
+          <input type="submit" value="Enviar" />
+        </form>
+        <nav>
+          <a href="index.html"><p>Volver a la página principal</p></a>
+        </nav>
+    </div>
+    </div>
+  </section>
+
+  <footer class="pie_de_pagina">
+    <a href="contacto.html">Formulario de Contacto</a>
+
+    <ul>
+      <li><a href="#">Términos y condiciones</a></li>
+      <li><a href="#">Política de privacidad</a></li>
+      <li><a href="#">Política de cookies</a></li>
+      <li><a href="#">Aviso legal</a></li>
+      <p>Todos los derechos reservados</p>
+      <p>© Copyright 2024</p>
+    </ul>
+
+
+  </footer>
+</body>
+
+</html>

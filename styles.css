@@ -1,0 +1,118 @@
+/* Estilo general para el cuerpo de la página */
+body {
+    font-family: verdana, Arial, sans-serif;
+    margin: 20;
+    padding: 20;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+/* Estilo para el encabezado */
+.encabezado {
+    display: flex;
+    flex-direction: wrap;
+    background-color: #084929;
+    color: #fff;
+    border-bottom: 2px solid #ddd;
+    padding: 10px;
+}
+
+/* Estilo para la imagen del encabezado */
+.logo {
+    max-width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+/*estilo para la barra de navegacion y contenido*/
+.barra_informacion{
+    display: flex;
+    flex-direction: wrap;
+    background-color: #ffffff;
+    border-bottom: 2px solid #ddd;
+    padding: 10px;
+
+}
+/* Estilo para la barra de navegación */
+.barra_de_navegacion {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 500px;
+    background-color: #006633;
+    padding: 10px;
+}
+
+.barra_de_navegacion a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 0;
+    display: block;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+/* Estilo para el contenido principal */
+.informacion {
+    margin: 20px;
+}
+
+
+
+
+/* Estilo para el pie de página */
+
+.pie_de_pagina {
+    background-color: #0d7340;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #ddd;
+    margin-top: 20px;
+    }
+    
+    .pie_de_pagina a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    .pie_de_pagina a:hover {
+    text-decoration: underline;
+    }
+    
+    .pie_de_pagina ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    }
+    
+    .pie_de_pagina li {
+    display: inline;
+    margin: 0 10px;
+    }
+
+
+
+/*estilo redes sociales*/
+
+.redes_sociales {
+    display: flex;
+    justify-content:center;
+    height: 200px;
+    align-items: flex-end;
+}
+
+.redes_sociales a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.redes_sociales .icono_red_social {
+    width: 24px;  /* Ajusta el tamaño de los iconos según sea necesario */
+    height: auto;
+    vertical-align: middle;
+}
+
